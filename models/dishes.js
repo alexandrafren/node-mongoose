@@ -12,7 +12,7 @@ const dishSchema = new Schema({
         required: true
     }  
 },{
-    timestamps: true;
+    timestamps: true
 });
 
 var Dishes = mongoose.model('Dish', dishSchema)
